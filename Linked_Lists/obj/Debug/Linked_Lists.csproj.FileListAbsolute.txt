@@ -1,0 +1,6 @@
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\Linked_Lists\bin\Debug\Linked_Lists.exe.config
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\Linked_Lists\bin\Debug\Linked_Lists.exe
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\Linked_Lists\bin\Debug\Linked_Lists.pdb
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\Linked_Lists\obj\Debug\Linked_Lists.csprojResolveAssemblyReference.cache
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\Linked_Lists\obj\Debug\Linked_Lists.exe
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\Linked_Lists\obj\Debug\Linked_Lists.pdb

@@ -1,0 +1,6 @@
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\CircularBuffer\bin\Debug\CircularBuffer.exe.config
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\CircularBuffer\bin\Debug\CircularBuffer.exe
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\CircularBuffer\bin\Debug\CircularBuffer.pdb
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\CircularBuffer\obj\Debug\CircularBuffer.csprojResolveAssemblyReference.cache
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\CircularBuffer\obj\Debug\CircularBuffer.exe
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\CircularBuffer\obj\Debug\CircularBuffer.pdb

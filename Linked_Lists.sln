@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked_Lists", "Linked_Lists\Linked_Lists.csproj", "{605B545B-3958-497F-8367-F9E82CDDA2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeChain", "NodeChain\NodeChain.csproj", "{D358048F-4805-4338-95B0-F3F4F3EFF086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer", "CircularBuffer\CircularBuffer.csproj", "{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605B545B-3958-497F-8367-F9E82CDDA2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605B545B-3958-497F-8367-F9E82CDDA2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605B545B-3958-497F-8367-F9E82CDDA2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605B545B-3958-497F-8367-F9E82CDDA2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D358048F-4805-4338-95B0-F3F4F3EFF086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D358048F-4805-4338-95B0-F3F4F3EFF086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D358048F-4805-4338-95B0-F3F4F3EFF086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D358048F-4805-4338-95B0-F3F4F3EFF086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

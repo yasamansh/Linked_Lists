@@ -1,0 +1,6 @@
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\NodeChain\bin\Debug\NodeChain.exe.config
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\NodeChain\bin\Debug\NodeChain.exe
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\NodeChain\bin\Debug\NodeChain.pdb
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\NodeChain\obj\Debug\NodeChain.csprojResolveAssemblyReference.cache
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\NodeChain\obj\Debug\NodeChain.exe
+C:\Code\dotNet\PluralSite\Algorithm\Linked_Lists\Linked_Lists\NodeChain\obj\Debug\NodeChain.pdb
