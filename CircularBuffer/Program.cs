@@ -15,6 +15,21 @@ namespace CircularBuffer
             int capacity = Convert.ToInt32(Console.ReadLine());
             CircularBuffer<double> buffer = new CircularBuffer<double>(capacity);
 
+            ProcassInput(buffer);
+
+            ProcessBuffer(buffer);
+        }
+
+        private static void ProcessBuffer(CircularBuffer<double> buffer)
+        {
+            Console.WriteLine("Circular Buffer Elements::   ");
+            while (!buffer.IsEmpty)
+                Console.WriteLine("\t" + buffer.Read());
+            Console.ReadLine();
+        }
+
+        private static void ProcassInput(CircularBuffer<double> buffer)
+        {
             Console.WriteLine("Enter Buffer Element::   (For Exit enter 00)");
 
             var input = Console.ReadLine();
@@ -28,11 +43,6 @@ namespace CircularBuffer
                 }
                 input = Console.ReadLine();
             }
-
-            Console.WriteLine("Circular Buffer Elements::   ");
-            while(!buffer.IsEmpty)
-                Console.WriteLine("\t" + buffer.Read());
-            Console.ReadLine();
         }
     }
 }
