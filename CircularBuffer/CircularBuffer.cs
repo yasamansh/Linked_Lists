@@ -8,39 +8,51 @@ namespace CircularBuffer
 {
     public class CircularBuffer
     {
-        private double[] _buffer;
+        private object[] _buffer;
         private int _start;
         private int _end;
 
+        public CircularBuffer() : this(capacity: 10)
+        { }
+
         public CircularBuffer(int capacity)
         {
-            _buffer = new double[capacity+1];
+            _buffer = new object[capacity+1];
             _start = 0;
             _end = 0;
             
         }
 
-        public void Write(double value)
+        public void Write(object value)
         {
-            Console.WriteLine("_end:: " + _end);
             _buffer[_end] = value;
-            Console.WriteLine("_buffer[_end]:: " + _buffer[_end]);
             _end = (_end + 1) % _buffer.Length;
-            Console.WriteLine("_end:: " + _end);
             if (_end == _start)
             {
                 _start = (_start + 1) % _buffer.Length;
-                Console.WriteLine("_start:: " +_start);
             }
-            Console.ReadLine();
         }
 
-        public void Read()
+        public object Read()
         {
-            int i = _buffer.Length;
-            while (i > 0)
-                Console.WriteLine(_buffer[i]);
+            var result = _buffer[_start];
+            _start = (_start + 1) % _buffer.Length;
+            return result;
         }
 
+        public int Capacity
+        {
+            get { return _buffer.Length; }
+        }
+
+        public bool IsEmpty
+        {
+            get { return _end == _start; }
+        }
+
+        public bool IsFull
+        {
+            get { return (_end + 1) % _buffer.Length == _start; }
+        }
     }
 }
