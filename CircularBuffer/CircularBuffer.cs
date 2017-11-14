@@ -40,7 +40,6 @@ namespace CircularBuffer
             int i = _buffer.Length;
             while (i > 0)
                 Console.WriteLine(_buffer[i]);
-
         }
 
     }
