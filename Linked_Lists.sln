@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeChain", "NodeChain\Node
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer", "CircularBuffer\CircularBuffer.csproj", "{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Collection.csproj", "{07E5796F-A930-48E8-BA3E-FA77DA672DF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF8979D9-95B5-485E-BE07-21A0EAAF7B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E5796F-A930-48E8-BA3E-FA77DA672DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E5796F-A930-48E8-BA3E-FA77DA672DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E5796F-A930-48E8-BA3E-FA77DA672DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E5796F-A930-48E8-BA3E-FA77DA672DF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
