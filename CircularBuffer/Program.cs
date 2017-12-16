@@ -11,9 +11,11 @@ namespace CircularBuffer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the apcity::  ");
+            Console.WriteLine("Enter the capacity::  ");
             int capacity = Convert.ToInt32(Console.ReadLine());
-            CircularBuffer<double> buffer = new CircularBuffer<double>(capacity);
+
+            // Buffer<double> buffer = new Buffer<double>(capacity);
+            var buffer = new CircularBuffer<double>(capacity);
 
             ProcassInput(buffer);
 
